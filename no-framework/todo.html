@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
     <title>First Bulma Example</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
-<body>
+<body >
     <nav class="navbar is-primary">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -87,219 +85,198 @@
           </div>
         </div>
       </nav>
-
-    <div class="section">
-        <div class="container">
+      <div class="section">
+          <div class="container">
             <div class="columns">
                 <div class="column is-one-quarter">
                     <div class="card">
                         <header class="card-header">
-                            <p class="card-header-title">
-                                Component
-                            </p>
-                            <button class="card-header-icon" aria-label="more options">
-                                <span class="icon">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
+                          <p class="card-header-title">
+                            Component
+                          </p>
+                          <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                              <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                          </button>
                         </header>
                         <div class="card-content">
-                            <div class="content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-                                <br>
-                                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                            </div>
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                            <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
                         </div>
                         <footer class="card-footer">
-                            <a href="#" class="card-footer-item">Save</a>
-                            <a href="#" class="card-footer-item">Edit</a>
-                            <a href="#" class="card-footer-item">Delete</a>
+                          <a href="#" class="card-footer-item">Save</a>
+                          <a href="#" class="card-footer-item">Edit</a>
+                          <a href="#" class="card-footer-item">Delete</a>
                         </footer>
-                    </div>
+                      </div>
                 </div>
-                <div class="column is-half" data-dashlane-rid="21a3695da0ed0a6d" data-form-type="contact">
+                <div class="column is-half">
                     <article class="panel">
-
+                        
                         <div class="tabs is-boxed">
                             <ul>
-                                <li class="is-active">
-                                    <a>
-                                        <span class="icon is-small"><i class="fas fa-clipboard-list"></i></span>
-                                        <span>Current</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="icon is-small"><i class="fas fa-calendar-times"></i></span>
-                                        <span>Completed</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="icon is-small"><i class="fas fa-calendar-day"></i></span>
-                                        <span>Upcoming</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <span class="icon is-small"><i class="fas fa-calendar"></i></span>
-                                        <span>All</span>
-                                    </a>
-                                </li>
+                              <li class="is-active">
+                                <a>
+                                  <span class="icon is-small"><i class="fas fa-clipboard-list"></i></span>
+                                  <span>Current</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <span class="icon is-small"><i class="fas fa-calendar-times"></i></span>
+                                  <span>Completed</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <span class="icon is-small"><i class="fas fa-calendar-day"></i></span>
+                                  <span>Upcoming</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <span class="icon is-small"><i class="fas fa-calendar"></i></span>
+                                  <span>All</span>
+                                </a>
+                              </li>
                             </ul>
-                        </div>
+                          </div>
                         <div class="panel-block">
-                            <p class="control has-icons-left">
-                                <input class="input is-primary" type="text" placeholder="New Task"
-                                    data-dashlane-rid="bb5fb4157690b8d3" data-form-type="other">
-                                <span class="icon is-left">
-                                    <i class="fas fa-calendar-plus" aria-hidden="true"></i>
-                                </span>
-                            </p>
+                          <p class="control has-icons-left">
+                            <input class="input is-primary" type="text" placeholder="New Task">
+                            <span class="icon is-left">
+                              <i class="fas fa-calendar-plus" aria-hidden="true"></i>
+                            </span>
+                          </p>
                         </div>
                         <a class="panel-block">
-                            <input type="checkbox" checked="" data-dashlane-rid="1915ef585ed05841"
-                                data-form-type="other">
+                            <input type="checkbox" checked />
                             Make Bulma great again
                         </a>
                         <a class="panel-block">
-                            <input type="checkbox" data-dashlane-rid="ba2d35772401aef3" data-form-type="other">
+                            <input type="checkbox" />
                             Add some more features
                         </a>
                         <a class="panel-block">
-                            <input type="checkbox" data-dashlane-rid="2f46dbfa519ac667" data-form-type="other">
+                            <input type="checkbox" />
                             Make a github account
                         </a>
                         <a class="panel-block">
-                            <input type="checkbox" data-dashlane-rid="628b4fe06169661d" data-form-type="other">
+                            <input type="checkbox" />
                             Learn how to use github
                         </a>
                         <a class="panel-block">
-                            <input type="checkbox" data-dashlane-rid="4e57634a87074211" data-form-type="other">
+                            <input type="checkbox" />
                             add a .gitignore file
                         </a>
-                    </article>
+                      </article>
 
-                    <article class="message is-primary">
+                      <article class="message is-primary">
                         <div class="message-header">
-                            <p>Make a github account</p>
-                            <button class="delete" aria-label="delete" data-dashlane-label="true"
-                                data-dashlane-rid="286dc8a4af092f77" data-form-type="other"></button>
+                          <p>Make a github account</p>
+                          <button class="delete" aria-label="delete"></button>
                         </div>
                         <div class="message-body">
-                            <p>Go to <a href="https://github.com">github.com</a> and create an account.</p>
-                            <p>
-                                That's where you'll be able to share your work with the world.. thats where we will be
-                                putting all of our code for this class.
-                            </p>
-                            <progress class="progress is-success" value="60" max="100">60%</progress>
+                          <p>Go to <a href="https://github.com">github.com</a> and create an account.</p>
+                          <p>
+                            That's where you'll be able to share your work with the world.. thats where we will be putting all of our code for this class.
+                          </p>
+                          <progress class="progress is-success" value="60" max="100">60%</progress>
                         </div>
-                    </article>
+                      </article>
 
-
-                    <form action="" class="box" data-dashlane-rid="467c8b4ebeeff91f" data-form-type="contact">
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control">
-                                <input class="input" type="text" placeholder="Text input"
-                                    data-dashlane-rid="a3653081835b8fcb" data-form-type="name"
-                                    data-kwimpalastatus="alive" data-kwimpalaid="1706836877165-0">
-                                <span id="1706836877165-0" data-dashlanecreated="true"
-                                    style="color: initial; font: initial; font-palette: initial; font-synthesis: initial; forced-color-adjust: initial; position: absolute; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation-composition: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: none; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: pointer; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; left: 387px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: 1; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; quotes: initial; r: initial; resize: initial; right: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; white-space: initial; timeline-scope: initial; top: 12px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-name: initial; visibility: visible; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Username</label>
-                            <div class="control has-icons-left has-icons-right">
-                                <input class="input is-success" type="text" placeholder="Text input" value="bulma"
-                                    data-dashlane-rid="57fb48a4caf972ab" data-form-type="other">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                                <span class="icon is-small is-right">
-                                    <i class="fas fa-check"></i>
-                                </span>
-                            </div>
-                            <p class="help is-success">This username is available</p>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left has-icons-right">
-                                <input class="input is-danger" type="email" placeholder="Email input" value="hello@"
-                                    data-dashlane-rid="e42a4582f9fcf2c4" data-form-type="email"
-                                    data-kwcachedvalue="hello@" data-kwimpalastatus="alive"
-                                    data-kwimpalaid="1706836877165-1">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                                <span class="icon is-small is-right">
-                                    <i class="fas fa-exclamation-triangle"></i>
-                                </span>
-                                <span id="1706836877165-1" data-dashlanecreated="true"
-                                    style="color: initial; font: initial; font-palette: initial; font-synthesis: initial; forced-color-adjust: initial; position: absolute; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation-composition: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: none; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: pointer; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; left: 387px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: 1; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; quotes: initial; r: initial; resize: initial; right: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; white-space: initial; timeline-scope: initial; top: 12px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-name: initial; visibility: visible; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span>
-                            </div>
-                            <p class="help is-danger">This email is invalid</p>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Subject</label>
-                            <div class="control">
-                                <div class="select">
-                                    <select data-dashlane-rid="24c3d3c440b6c0a3" data-form-type="other">
-                                        <option>Select dropdown</option>
-                                        <option>With options</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                                <textarea class="textarea" placeholder="Textarea" data-dashlane-rid="9b66220016cc3478"
-                                    data-form-type="other"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <div class="control">
-                                <label class="checkbox" data-dashlane-label="true">
-                                    <input type="checkbox" data-dashlane-rid="d72fb908b7c47893"
-                                        data-form-type="consent,terms">
-                                    I agree to the <a href="#">terms and conditions</a>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <div class="control">
-                                <label class="radio" data-dashlane-label="true">
-                                    <input type="radio" name="question" data-dashlane-rid="6c90f4328430bd50"
-                                        data-form-type="other">
-                                    Yes
-                                </label>
-                                <label class="radio" data-dashlane-label="true">
-                                    <input type="radio" name="question" data-dashlane-rid="e8e1c7f00b765f41"
-                                        data-form-type="other">
-                                    No
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="field is-grouped">
-                            <div class="control">
-                                <button class="button is-link" data-dashlane-label="true"
-                                    data-dashlane-rid="503889d6c392aaf8" data-form-type="action">Submit</button>
-                            </div>
-                            <div class="control">
-                                <button class="button is-link is-light" data-dashlane-label="true"
-                                    data-dashlane-rid="3186513d6923ce30" data-form-type="other">Cancel</button>
-                            </div>
-                        </div>
-                    </form>
+                      
+<form action="" class="box">
+    <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+        <p class="help is-success">This username is available</p>
+      </div>
+      
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">This email is invalid</p>
+      </div>
+      
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="question">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="question">
+            No
+          </label>
+        </div>
+      </div>
+      
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Cancel</button>
+        </div>
+      </div>
+</form>
 
 
                 </div>
@@ -308,54 +285,45 @@
                     <h3 class="subtitle">Intra-page navigation</h3>
                     <aside class="menu">
                         <p class="menu-label">
-                            General
+                          General
                         </p>
                         <ul class="menu-list">
-                            <li><a>Dashboard</a></li>
-                            <li><a>Customers</a></li>
+                          <li><a>Dashboard</a></li>
+                          <li><a>Customers</a></li>
                         </ul>
                         <p class="menu-label">
-                            Administration
+                          Administration
                         </p>
                         <ul class="menu-list">
-                            <li><a>Team Settings</a></li>
-                            <li>
-                                <a class="is-active">Manage Your Team</a>
-                                <ul>
-                                    <li><a>Members</a></li>
-                                    <li><a>Plugins</a></li>
-                                    <li><a>Add a member</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Invitations</a></li>
-                            <li><a>Cloud Storage Environment Settings</a></li>
-                            <li><a>Authentication</a></li>
+                          <li><a>Team Settings</a></li>
+                          <li>
+                            <a class="is-active">Manage Your Team</a>
+                            <ul>
+                              <li><a>Members</a></li>
+                              <li><a>Plugins</a></li>
+                              <li><a>Add a member</a></li>
+                            </ul>
+                          </li>
+                          <li><a>Invitations</a></li>
+                          <li><a>Cloud Storage Environment Settings</a></li>
+                          <li><a>Authentication</a></li>
                         </ul>
                         <p class="menu-label">
-                            Transactions
+                          Transactions
                         </p>
                         <ul class="menu-list">
-                            <li><a>Payments</a></li>
-                            <li><a>Transfers</a></li>
-                            <li><a>Balance</a></li>
+                          <li><a>Payments</a></li>
+                          <li><a>Transfers</a></li>
+                          <li><a>Balance</a></li>
                         </ul>
-                    </aside>
+                      </aside>
                 </div>
 
             </div>
-        </div>
 
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        $(function() {
-            $(function() {
-                $('.delete').click(function(){
-                    $(this).parent().parent().slideUp();
-                })
-            })
-        })
-    </script>
+          </div>
+
+      </div>
+
 </body>
-
 </html>
