@@ -1,9 +1,19 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="hero is-primary is-large">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          <h2 class="subtitle">
+              Welcome to the home page
+          </h2>
+        </h1>
+
+      </div>
+
+    </div>
   </main>
 </template>
