@@ -4,6 +4,22 @@ import { type Product, getProduct } from "@/model/products";
 
 const products = ref([] as Product[])
 
+type CartItem = {
+    product: Product,
+    quantity: number
+}
+
+const cart = ref([] as CartItem[])
+
+function addToCart(product: Product) {
+    const item = cart.value.find(item => item.product.id === product.id)
+    if (item) {
+        item.quantity++
+    } else {
+        cart.value.push({ product, quantity: 1 })
+    }
+}
+
 products.value = getProduct()
 
 </script>
@@ -18,9 +34,22 @@ products.value = getProduct()
                 <p class="price">{{ product.price }}</p>
                 <h3>{{ product.title }}</h3>
                 <p>{{ product.description }}</p>
+                <button @click="addToCart(product)" class="button is-primary">Add to Cart</button>
             </div>
         </div>
+    </div>
 
+    <div class="flyout">
+        <h1 class="title">
+            The Cart
+        </h1>
+        <ul class="cart">
+            <li v-for="item in cart" :key="item.product.id">
+                <img src="item.product.thumbnail" alt="item.product.title" />
+                {{ item.product.title }} x {{ item.quantity }} = ${{ item.product.price * item.quantity }}
+            </li>
+        </ul>
+        {{ cart.length }} items totaling ${{ cart.reduce(totalmem, item) => total = }}
 
     </div>
 </template>
@@ -45,5 +74,29 @@ font-weight: bold;
 font-size: xx-large;
 color: red;
 float: right;
+}
+.flyout{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: -1px 0 5px 0 black;
+    z-index: 100;
+    transform: translateX(80%);
+    transition: transform 1s;
+    padding: 1rem;
+}
+
+.flyout.open, .flyout:hover {
+    transform: transformX(0);
+}
+
+.cart li{
+    display: flex;
+    align-items: center;
+    margin: 
 }
 </style>
