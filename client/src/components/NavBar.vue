@@ -5,8 +5,8 @@ import { ref } from 'vue';
 
 let isActive = ref(false);
 
-function toggleMenu(){
-    isActive.value = !isActive.value;
+function toggleMenu() {
+  isActive.value = !isActive.value;
 }
 
 </script>
@@ -18,7 +18,8 @@ function toggleMenu(){
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
 
-      <a role="button" @click="toggleMenu" :class="{ 'is-active': isActive }" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a role="button" @click="toggleMenu" :class="{ 'is-active': isActive }" class="navbar-burger" aria-label="menu"
+        aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -36,8 +37,8 @@ function toggleMenu(){
         </RouterLink>
 
         <RouterLink to="/products" class="navbar-item">
-              Products
-            </RouterLink>
+          Products
+        </RouterLink>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -79,9 +80,7 @@ function toggleMenu(){
 </template>
 
 <style scoped>
-
-.router-link-active{
+.router-link-active {
   border-bottom: 2px solid #00d1b2;
 }
-
 </style>
