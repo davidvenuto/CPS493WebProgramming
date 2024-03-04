@@ -41,7 +41,7 @@ function toggleMenu(){
           </a>
 
           <div class="navbar-dropdown">
-            <RouterLink to="/" class="navbar-item">
+            <RouterLink to="/about" class="navbar-item">
               About
             </RouterLink>
             <a class="navbar-item">
