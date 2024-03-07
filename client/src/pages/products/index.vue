@@ -4,6 +4,8 @@
 
     const products = ref([] as Product[])
 
+    products.value = getProduct()
+
     type CartItem = {
         product: Product,
         quantity: number
@@ -12,15 +14,15 @@
     const cart = ref([] as CartItem[])
 
     function addToCart(product: Product) {
+
         const item = cart.value.find(item => item.product.id === product.id)
+
         if (item) {
             item.quantity++
         } else {
             cart.value.push({ product, quantity: 1 })
         }
     }
-
-    products.value = getProduct()
 
 </script>
 
@@ -33,6 +35,7 @@
             <div class="card-content">
                 <p class="price">${{ product.price }}</p>
                 <h3>{{ product.title }}</h3>
+                <i>{{ product.brand }}</i>
                 <p>{{ product.description }}</p>
                 <button @click="addToCart(product)" class="button is-primary">Add to Cart</button>
             </div>
