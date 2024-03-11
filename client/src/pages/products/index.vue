@@ -1,9 +1,9 @@
 <script setup lang="ts">
-    import { ref } from 'vue'
+    import { ref, computed } from 'vue'
     import { type Product, getProduct } from "@/model/products";
 
     const products = ref([] as Product[])
-
+    
     products.value = getProduct()
 
     type CartItem = {
@@ -23,6 +23,8 @@
             cart.value.push({ product, quantity: 1 })
         }
     }
+
+    const total = computed( () => cart.value.reduce((total, item) => total + item.product.price * item.quantity, 0) )
 
 </script>
 
@@ -52,7 +54,7 @@
                 {{ item.product.title }} x {{ item.quantity }} = ${{ item.product.price * item.quantity }}
             </li>
         </ul>
-        {{ cart.length }} items totalling ${{ cart.reduce((total, item) => total + item.product.price * item.quantity, 0) }}
+        {{ cart.length }} items totalling ${{ total }}
     </div>
 </template>
 

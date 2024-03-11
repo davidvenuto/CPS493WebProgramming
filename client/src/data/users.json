@@ -17,19 +17,13 @@
             "height": 189,
             "weight": 75.4,
             "eyeColor": "Green",
-            "hair": {
-                "color": "Black",
-                "type": "Strands"
-            },
+            "hair": { "color": "Black", "type": "Strands" },
             "domain": "slashdot.org",
             "ip": "117.29.86.254",
             "address": {
                 "address": "1745 T Street Southeast",
                 "city": "Washington",
-                "coordinates": {
-                    "lat": 38.867033,
-                    "lng": -76.979235
-                },
+                "coordinates": { "lat": 38.867033, "lng": -76.979235 },
                 "postalCode": "20020",
                 "state": "DC"
             },
@@ -83,19 +77,13 @@
             "height": 187,
             "weight": 74,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Blond",
-                "type": "Curly"
-            },
+            "hair": { "color": "Blond", "type": "Curly" },
             "domain": "51.la",
             "ip": "253.240.20.181",
             "address": {
                 "address": "6007 Applegate Lane",
                 "city": "Louisville",
-                "coordinates": {
-                    "lat": 38.1343013,
-                    "lng": -85.6498512
-                },
+                "coordinates": { "lat": 38.1343013, "lng": -85.6498512 },
                 "postalCode": "40219",
                 "state": "KY"
             },
@@ -112,10 +100,7 @@
                 "address": {
                     "address": "8821 West Myrtle Avenue",
                     "city": "Glendale",
-                    "coordinates": {
-                        "lat": 33.5404296,
-                        "lng": -112.2488391
-                    },
+                    "coordinates": { "lat": 33.5404296, "lng": -112.2488391 },
                     "postalCode": "85305",
                     "state": "AZ"
                 },
@@ -149,19 +134,13 @@
             "height": 200,
             "weight": 105.3,
             "eyeColor": "Gray",
-            "hair": {
-                "color": "Blond",
-                "type": "Very curly"
-            },
+            "hair": { "color": "Blond", "type": "Very curly" },
             "domain": "earthlink.net",
             "ip": "205.226.160.3",
             "address": {
                 "address": "560 Penstock Drive",
                 "city": "Grass Valley",
-                "coordinates": {
-                    "lat": 39.213076,
-                    "lng": -121.077583
-                },
+                "coordinates": { "lat": 39.213076, "lng": -121.077583 },
                 "postalCode": "95945",
                 "state": "CA"
             },
@@ -178,10 +157,7 @@
                 "address": {
                     "address": "18 Densmore Drive",
                     "city": "Essex",
-                    "coordinates": {
-                        "lat": 44.492953,
-                        "lng": -73.101883
-                    },
+                    "coordinates": { "lat": 44.492953, "lng": -73.101883 },
                     "postalCode": "05452",
                     "state": "VT"
                 },
@@ -215,19 +191,13 @@
             "height": 157,
             "weight": 95.9,
             "eyeColor": "Gray",
-            "hair": {
-                "color": "Blond",
-                "type": "Very curly"
-            },
+            "hair": { "color": "Blond", "type": "Very curly" },
             "domain": "homestead.com",
             "ip": "243.20.78.113",
             "address": {
                 "address": "150 Carter Street",
                 "city": "Manchester",
-                "coordinates": {
-                    "lat": 41.76556000000001,
-                    "lng": -72.473091
-                },
+                "coordinates": { "lat": 41.76556000000001, "lng": -72.473091 },
                 "postalCode": "06040",
                 "state": "CT"
             },
@@ -281,19 +251,13 @@
             "height": 188,
             "weight": 106.3,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Brown",
-                "type": "Curly"
-            },
+            "hair": { "color": "Brown", "type": "Curly" },
             "domain": "columbia.edu",
             "ip": "103.72.86.183",
             "address": {
                 "address": "2721 Lindsay Avenue",
                 "city": "Louisville",
-                "coordinates": {
-                    "lat": 38.263793,
-                    "lng": -85.700243
-                },
+                "coordinates": { "lat": 38.263793, "lng": -85.700243 },
                 "postalCode": "40206",
                 "state": "KY"
             },
@@ -310,10 +274,7 @@
                 "address": {
                     "address": "8398 West Denton Lane",
                     "city": "Glendale",
-                    "coordinates": {
-                        "lat": 33.515353,
-                        "lng": -112.240812
-                    },
+                    "coordinates": { "lat": 33.515353, "lng": -112.240812 },
                     "postalCode": "85305",
                     "state": "AZ"
                 },
@@ -347,19 +308,13 @@
             "height": 149,
             "weight": 105.7,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Blond",
-                "type": "Straight"
-            },
+            "hair": { "color": "Blond", "type": "Straight" },
             "domain": "bandcamp.com",
             "ip": "49.201.206.36",
             "address": {
                 "address": "18 Densmore Drive",
                 "city": "Essex",
-                "coordinates": {
-                    "lat": 44.492953,
-                    "lng": -73.101883
-                },
+                "coordinates": { "lat": 44.492953, "lng": -73.101883 },
                 "postalCode": "05452",
                 "state": "VT"
             },
@@ -376,10 +331,7 @@
                 "address": {
                     "address": "6231 North 67th Avenue",
                     "city": "Glendale",
-                    "coordinates": {
-                        "lat": 33.5279666,
-                        "lng": -112.2022551
-                    },
+                    "coordinates": { "lat": 33.5279666, "lng": -112.2022551 },
                     "postalCode": "85301",
                     "state": "AZ"
                 },
@@ -413,19 +365,13 @@
             "height": 172,
             "weight": 78.1,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Chestnut",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Chestnut", "type": "Wavy" },
             "domain": "ovh.net",
             "ip": "25.207.107.146",
             "address": {
                 "address": "637 Britannia Drive",
                 "city": "Vallejo",
-                "coordinates": {
-                    "lat": 38.10476999999999,
-                    "lng": -122.193849
-                },
+                "coordinates": { "lat": 38.10476999999999, "lng": -122.193849 },
                 "postalCode": "94591",
                 "state": "CA"
             },
@@ -442,10 +388,7 @@
                 "address": {
                     "address": "1407 Walden Court",
                     "city": "Crofton",
-                    "coordinates": {
-                        "lat": 39.019306,
-                        "lng": -76.660653
-                    },
+                    "coordinates": { "lat": 39.019306, "lng": -76.660653 },
                     "postalCode": "21114",
                     "state": "MD"
                 },
@@ -479,19 +422,13 @@
             "height": 146,
             "weight": 52.1,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Chestnut",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Chestnut", "type": "Wavy" },
             "domain": "homestead.com",
             "ip": "91.200.56.127",
             "address": {
                 "address": "5601 West Crocus Drive",
                 "city": "Glendale",
-                "coordinates": {
-                    "lat": 33.6152469,
-                    "lng": -112.179737
-                },
+                "coordinates": { "lat": 33.6152469, "lng": -112.179737 },
                 "postalCode": "85306",
                 "state": "AZ"
             },
@@ -545,19 +482,13 @@
             "height": 170,
             "weight": 97.1,
             "eyeColor": "Green",
-            "hair": {
-                "color": "Brown",
-                "type": "Strands"
-            },
+            "hair": { "color": "Brown", "type": "Strands" },
             "domain": "goodreads.com",
             "ip": "78.170.185.120",
             "address": {
                 "address": "5403 Illinois Avenue",
                 "city": "Nashville",
-                "coordinates": {
-                    "lat": 36.157077,
-                    "lng": -86.853827
-                },
+                "coordinates": { "lat": 36.157077, "lng": -86.853827 },
                 "postalCode": "37209",
                 "state": "TN"
             },
@@ -574,10 +505,7 @@
                 "address": {
                     "address": "12245 West 71st Place",
                     "city": "Arvada",
-                    "coordinates": {
-                        "lat": 39.8267078,
-                        "lng": -105.1366798
-                    },
+                    "coordinates": { "lat": 39.8267078, "lng": -105.1366798 },
                     "postalCode": "80004",
                     "state": "CO"
                 },
@@ -611,19 +539,13 @@
             "height": 198,
             "weight": 48,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Chestnut",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Chestnut", "type": "Wavy" },
             "domain": "alibaba.com",
             "ip": "73.15.179.178",
             "address": {
                 "address": "8821 West Myrtle Avenue",
                 "city": "Glendale",
-                "coordinates": {
-                    "lat": 33.5404296,
-                    "lng": -112.2488391
-                },
+                "coordinates": { "lat": 33.5404296, "lng": -112.2488391 },
                 "postalCode": "85305",
                 "state": "AZ"
             },
@@ -640,10 +562,7 @@
                 "address": {
                     "address": "1649 Timberridge Court",
                     "city": "Fayetteville",
-                    "coordinates": {
-                        "lat": 36.084563,
-                        "lng": -94.206082
-                    },
+                    "coordinates": { "lat": 36.084563, "lng": -94.206082 },
                     "postalCode": "72704",
                     "state": "AR"
                 },
@@ -677,19 +596,13 @@
             "height": 203,
             "weight": 63.7,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Black",
-                "type": "Straight"
-            },
+            "hair": { "color": "Black", "type": "Straight" },
             "domain": "feedburner.com",
             "ip": "137.235.164.173",
             "address": {
                 "address": "2203 7th Street Road",
                 "city": "Louisville",
-                "coordinates": {
-                    "lat": 38.218107,
-                    "lng": -85.779006
-                },
+                "coordinates": { "lat": 38.218107, "lng": -85.779006 },
                 "postalCode": "40208",
                 "state": "KY"
             },
@@ -706,10 +619,7 @@
                 "address": {
                     "address": "308 Woodleaf Court",
                     "city": "Glen Burnie",
-                    "coordinates": {
-                        "lat": 39.1425931,
-                        "lng": -76.6238441
-                    },
+                    "coordinates": { "lat": 39.1425931, "lng": -76.6238441 },
                     "postalCode": "21061",
                     "state": "MD"
                 },
@@ -743,19 +653,13 @@
             "height": 168,
             "weight": 96.8,
             "eyeColor": "Gray",
-            "hair": {
-                "color": "Black",
-                "type": "Very curly"
-            },
+            "hair": { "color": "Black", "type": "Very curly" },
             "domain": "123-reg.co.uk",
             "ip": "74.80.53.208",
             "address": {
                 "address": "6463 Vrain Street",
                 "city": "Arvada",
-                "coordinates": {
-                    "lat": 39.814056,
-                    "lng": -105.046913
-                },
+                "coordinates": { "lat": 39.814056, "lng": -105.046913 },
                 "postalCode": "80003",
                 "state": "CO"
             },
@@ -771,10 +675,7 @@
             "company": {
                 "address": {
                     "address": "388 East Main Street",
-                    "coordinates": {
-                        "lat": 43.9727945,
-                        "lng": -73.1023187
-                    },
+                    "coordinates": { "lat": 43.9727945, "lng": -73.1023187 },
                     "postalCode": "05753",
                     "state": "VT"
                 },
@@ -808,19 +709,13 @@
             "height": 181,
             "weight": 56.5,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Auburn",
-                "type": "Straight"
-            },
+            "hair": { "color": "Auburn", "type": "Straight" },
             "domain": "histats.com",
             "ip": "163.245.232.27",
             "address": {
                 "address": "87 Horseshoe Drive",
                 "city": "West Windsor",
-                "coordinates": {
-                    "lat": 43.4731793,
-                    "lng": -72.4967532
-                },
+                "coordinates": { "lat": 43.4731793, "lng": -72.4967532 },
                 "postalCode": "05037",
                 "state": "VT"
             },
@@ -837,10 +732,7 @@
                 "address": {
                     "address": "310 Timrod Road",
                     "city": "Manchester",
-                    "coordinates": {
-                        "lat": 41.756758,
-                        "lng": -72.493501
-                    },
+                    "coordinates": { "lat": 41.756758, "lng": -72.493501 },
                     "postalCode": "06040",
                     "state": "CT"
                 },
@@ -874,19 +766,13 @@
             "height": 150,
             "weight": 100.3,
             "eyeColor": "Green",
-            "hair": {
-                "color": "Auburn",
-                "type": "Strands"
-            },
+            "hair": { "color": "Auburn", "type": "Strands" },
             "domain": "icio.us",
             "ip": "174.238.43.126",
             "address": {
                 "address": "60 Desousa Drive",
                 "city": "Manchester",
-                "coordinates": {
-                    "lat": 41.7409259,
-                    "lng": -72.5619104
-                },
+                "coordinates": { "lat": 41.7409259, "lng": -72.5619104 },
                 "postalCode": "06040",
                 "state": "CT"
             },
@@ -903,10 +789,7 @@
                 "address": {
                     "address": "21950 Arnold Center Road",
                     "city": "Carson",
-                    "coordinates": {
-                        "lat": 33.8272706,
-                        "lng": -118.2302826
-                    },
+                    "coordinates": { "lat": 33.8272706, "lng": -118.2302826 },
                     "postalCode": "90810",
                     "state": "CA"
                 },
@@ -940,19 +823,13 @@
             "height": 176,
             "weight": 45.7,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Blond",
-                "type": "Straight"
-            },
+            "hair": { "color": "Blond", "type": "Straight" },
             "domain": "google.co.uk",
             "ip": "78.43.74.226",
             "address": {
                 "address": "4 Old Colony Way",
                 "city": "Yarmouth",
-                "coordinates": {
-                    "lat": 41.697168,
-                    "lng": -70.189992
-                },
+                "coordinates": { "lat": 41.697168, "lng": -70.189992 },
                 "postalCode": "02664",
                 "state": "MA"
             },
@@ -969,10 +846,7 @@
                 "address": {
                     "address": "22572 Toreador Drive",
                     "city": "Salinas",
-                    "coordinates": {
-                        "lat": 36.602449,
-                        "lng": -121.699071
-                    },
+                    "coordinates": { "lat": 36.602449, "lng": -121.699071 },
                     "postalCode": "93908",
                     "state": "CA"
                 },
@@ -1006,19 +880,13 @@
             "height": 166,
             "weight": 87.2,
             "eyeColor": "Gray",
-            "hair": {
-                "color": "Black",
-                "type": "Very curly"
-            },
+            "hair": { "color": "Black", "type": "Very curly" },
             "domain": "tamu.edu",
             "ip": "82.170.69.15",
             "address": {
                 "address": "314 South 17th Street",
                 "city": "Nashville",
-                "coordinates": {
-                    "lat": 36.1719075,
-                    "lng": -86.740228
-                },
+                "coordinates": { "lat": 36.1719075, "lng": -86.740228 },
                 "postalCode": "37206",
                 "state": "TN"
             },
@@ -1035,10 +903,7 @@
                 "address": {
                     "address": "1407 Walden Court",
                     "city": "Crofton",
-                    "coordinates": {
-                        "lat": 39.019306,
-                        "lng": -76.660653
-                    },
+                    "coordinates": { "lat": 39.019306, "lng": -76.660653 },
                     "postalCode": "21114",
                     "state": "MD"
                 },
@@ -1072,19 +937,13 @@
             "height": 199,
             "weight": 94.3,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Black",
-                "type": "Curly"
-            },
+            "hair": { "color": "Black", "type": "Curly" },
             "domain": "wix.com",
             "ip": "75.75.234.243",
             "address": {
                 "address": "1649 Timberridge Court",
                 "city": "Fayetteville",
-                "coordinates": {
-                    "lat": 36.084563,
-                    "lng": -94.206082
-                },
+                "coordinates": { "lat": 36.084563, "lng": -94.206082 },
                 "postalCode": "72704",
                 "state": "AR"
             },
@@ -1101,10 +960,7 @@
                 "address": {
                     "address": "20930 Todd Valley Road",
                     "city": "Foresthill",
-                    "coordinates": {
-                        "lat": 38.989466,
-                        "lng": -120.883108
-                    },
+                    "coordinates": { "lat": 38.989466, "lng": -120.883108 },
                     "postalCode": "95631",
                     "state": "CA"
                 },
@@ -1138,19 +994,13 @@
             "height": 192,
             "weight": 97,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Brown",
-                "type": "Straight"
-            },
+            "hair": { "color": "Brown", "type": "Straight" },
             "domain": "seesaa.net",
             "ip": "29.82.54.30",
             "address": {
                 "address": "5461 West Shades Valley Drive",
                 "city": "Montgomery",
-                "coordinates": {
-                    "lat": 32.296422,
-                    "lng": -86.34280299999999
-                },
+                "coordinates": { "lat": 32.296422, "lng": -86.34280299999999 },
                 "postalCode": "36108",
                 "state": "AL"
             },
@@ -1204,19 +1054,13 @@
             "height": 167,
             "weight": 65.3,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Black",
-                "type": "Straight"
-            },
+            "hair": { "color": "Black", "type": "Straight" },
             "domain": "homestead.com",
             "ip": "90.202.216.39",
             "address": {
                 "address": "629 Debbie Drive",
                 "city": "Nashville",
-                "coordinates": {
-                    "lat": 36.208114,
-                    "lng": -86.58621199999999
-                },
+                "coordinates": { "lat": 36.208114, "lng": -86.58621199999999 },
                 "postalCode": "37076",
                 "state": "TN"
             },
@@ -1233,10 +1077,7 @@
                 "address": {
                     "address": "6463 Vrain Street",
                     "city": "Arvada",
-                    "coordinates": {
-                        "lat": 39.814056,
-                        "lng": -105.046913
-                    },
+                    "coordinates": { "lat": 39.814056, "lng": -105.046913 },
                     "postalCode": "80003",
                     "state": "CO"
                 },
@@ -1270,19 +1111,13 @@
             "height": 175,
             "weight": 68,
             "eyeColor": "Green",
-            "hair": {
-                "color": "Black",
-                "type": "Strands"
-            },
+            "hair": { "color": "Black", "type": "Strands" },
             "domain": "sourceforge.net",
             "ip": "59.43.194.22",
             "address": {
                 "address": "22572 Toreador Drive",
                 "city": "Salinas",
-                "coordinates": {
-                    "lat": 36.602449,
-                    "lng": -121.699071
-                },
+                "coordinates": { "lat": 36.602449, "lng": -121.699071 },
                 "postalCode": "93908",
                 "state": "CA"
             },
@@ -1336,19 +1171,13 @@
             "height": 173,
             "weight": 69.9,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Black",
-                "type": "Curly"
-            },
+            "hair": { "color": "Black", "type": "Curly" },
             "domain": "free.fr",
             "ip": "87.213.156.73",
             "address": {
                 "address": "3034 Mica Street",
                 "city": "Fayetteville",
-                "coordinates": {
-                    "lat": 36.0807929,
-                    "lng": -94.2066449
-                },
+                "coordinates": { "lat": 36.0807929, "lng": -94.2066449 },
                 "postalCode": "72704",
                 "state": "AR"
             },
@@ -1402,19 +1231,13 @@
             "height": 164,
             "weight": 87.1,
             "eyeColor": "Green",
-            "hair": {
-                "color": "Black",
-                "type": "Strands"
-            },
+            "hair": { "color": "Black", "type": "Strands" },
             "domain": "indiatimes.com",
             "ip": "71.57.235.192",
             "address": {
                 "address": "3729 East Mission Boulevard",
                 "city": "Fayetteville",
-                "coordinates": {
-                    "lat": 36.0919353,
-                    "lng": -94.10654219999999
-                },
+                "coordinates": { "lat": 36.0919353, "lng": -94.10654219999999 },
                 "postalCode": "72703",
                 "state": "AR"
             },
@@ -1431,10 +1254,7 @@
                 "address": {
                     "address": "8800 Cordell Circle",
                     "city": "Anchorage",
-                    "coordinates": {
-                        "lat": 61.1409305,
-                        "lng": -149.9437822
-                    },
+                    "coordinates": { "lat": 61.1409305, "lng": -149.9437822 },
                     "postalCode": "99502",
                     "state": "AK"
                 },
@@ -1468,19 +1288,13 @@
             "height": 151,
             "weight": 96.7,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Brown",
-                "type": "Curly"
-            },
+            "hair": { "color": "Brown", "type": "Curly" },
             "domain": "tamu.edu",
             "ip": "141.14.53.176",
             "address": {
                 "address": "5114 Greentree Drive",
                 "city": "Nashville",
-                "coordinates": {
-                    "lat": 36.0618539,
-                    "lng": -86.738508
-                },
+                "coordinates": { "lat": 36.0618539, "lng": -86.738508 },
                 "postalCode": "37211",
                 "state": "TN"
             },
@@ -1497,10 +1311,7 @@
                 "address": {
                     "address": "1770 Colony Way",
                     "city": "Fayetteville",
-                    "coordinates": {
-                        "lat": 36.0867,
-                        "lng": -94.229754
-                    },
+                    "coordinates": { "lat": 36.0867, "lng": -94.229754 },
                     "postalCode": "72704",
                     "state": "AR"
                 },
@@ -1534,19 +1345,13 @@
             "height": 166,
             "weight": 93.3,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Brown",
-                "type": "Curly"
-            },
+            "hair": { "color": "Brown", "type": "Curly" },
             "domain": "pen.io",
             "ip": "116.92.198.102",
             "address": {
                 "address": "3466 Southview Avenue",
                 "city": "Montgomery",
-                "coordinates": {
-                    "lat": 32.341227,
-                    "lng": -86.2846859
-                },
+                "coordinates": { "lat": 32.341227, "lng": -86.2846859 },
                 "postalCode": "36111",
                 "state": "AL"
             },
@@ -1563,10 +1368,7 @@
                 "address": {
                     "address": "80 North East Street",
                     "city": "Holyoke",
-                    "coordinates": {
-                        "lat": 42.2041219,
-                        "lng": -72.5977704
-                    },
+                    "coordinates": { "lat": 42.2041219, "lng": -72.5977704 },
                     "postalCode": "01040",
                     "state": "MA"
                 },
@@ -1600,19 +1402,13 @@
             "height": 180,
             "weight": 102.1,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Brown",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Brown", "type": "Wavy" },
             "domain": "apple.com",
             "ip": "48.30.193.203",
             "address": {
                 "address": "1513 Cathy Street",
                 "city": "Savannah",
-                "coordinates": {
-                    "lat": 32.067416,
-                    "lng": -81.125331
-                },
+                "coordinates": { "lat": 32.067416, "lng": -81.125331 },
                 "postalCode": "31415",
                 "state": "GA"
             },
@@ -1629,10 +1425,7 @@
                 "address": {
                     "address": "125 John Street",
                     "city": "Santa Cruz",
-                    "coordinates": {
-                        "lat": 36.950901,
-                        "lng": -122.046881
-                    },
+                    "coordinates": { "lat": 36.950901, "lng": -122.046881 },
                     "postalCode": "95060",
                     "state": "CA"
                 },
@@ -1666,19 +1459,13 @@
             "height": 146,
             "weight": 65.5,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Blond",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Blond", "type": "Wavy" },
             "domain": "foxnews.com",
             "ip": "93.246.47.59",
             "address": {
                 "address": "600 West 19th Avenue",
                 "city": "Anchorage",
-                "coordinates": {
-                    "lat": 61.203115,
-                    "lng": -149.894107
-                },
+                "coordinates": { "lat": 61.203115, "lng": -149.894107 },
                 "postalCode": "99503",
                 "state": "AK"
             },
@@ -1732,19 +1519,13 @@
             "height": 197,
             "weight": 71.5,
             "eyeColor": "Brown",
-            "hair": {
-                "color": "Black",
-                "type": "Curly"
-            },
+            "hair": { "color": "Black", "type": "Curly" },
             "domain": "toplist.cz",
             "ip": "100.159.51.104",
             "address": {
                 "address": "1208 Elkader Court North",
                 "city": "Nashville",
-                "coordinates": {
-                    "lat": 36.080049,
-                    "lng": -86.60116099999999
-                },
+                "coordinates": { "lat": 36.080049, "lng": -86.60116099999999 },
                 "postalCode": "37013",
                 "state": "TN"
             },
@@ -1761,10 +1542,7 @@
                 "address": {
                     "address": "600 West 19th Avenue",
                     "city": "Anchorage",
-                    "coordinates": {
-                        "lat": 61.203115,
-                        "lng": -149.894107
-                    },
+                    "coordinates": { "lat": 61.203115, "lng": -149.894107 },
                     "postalCode": "99503",
                     "state": "AK"
                 },
@@ -1798,19 +1576,13 @@
             "height": 172,
             "weight": 90.2,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Brown",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Brown", "type": "Wavy" },
             "domain": "elpais.com",
             "ip": "51.102.180.216",
             "address": {
                 "address": "210 Green Road",
                 "city": "Manchester",
-                "coordinates": {
-                    "lat": 41.7909099,
-                    "lng": -72.51195129999999
-                },
+                "coordinates": { "lat": 41.7909099, "lng": -72.51195129999999 },
                 "postalCode": "06042",
                 "state": "CT"
             },
@@ -1827,10 +1599,7 @@
                 "address": {
                     "address": "109 Summit Street",
                     "city": "Burlington",
-                    "coordinates": {
-                        "lat": 44.4729749,
-                        "lng": -73.2026566
-                    },
+                    "coordinates": { "lat": 44.4729749, "lng": -73.2026566 },
                     "postalCode": "05401",
                     "state": "VT"
                 },
@@ -1864,19 +1633,13 @@
             "height": 166,
             "weight": 93.7,
             "eyeColor": "Amber",
-            "hair": {
-                "color": "Black",
-                "type": "Straight"
-            },
+            "hair": { "color": "Black", "type": "Straight" },
             "domain": "ibm.com",
             "ip": "197.37.13.163",
             "address": {
                 "address": "49548 Road 200",
                 "city": "O'Neals",
-                "coordinates": {
-                    "lat": 37.153463,
-                    "lng": -119.648192
-                },
+                "coordinates": { "lat": 37.153463, "lng": -119.648192 },
                 "postalCode": "93645",
                 "state": "CA"
             },
@@ -1893,10 +1656,7 @@
                 "address": {
                     "address": "5403 Illinois Avenue",
                     "city": "Nashville",
-                    "coordinates": {
-                        "lat": 36.157077,
-                        "lng": -86.853827
-                    },
+                    "coordinates": { "lat": 36.157077, "lng": -86.853827 },
                     "postalCode": "37209",
                     "state": "TN"
                 },
@@ -1930,19 +1690,13 @@
             "height": 170,
             "weight": 107.2,
             "eyeColor": "Blue",
-            "hair": {
-                "color": "Blond",
-                "type": "Wavy"
-            },
+            "hair": { "color": "Blond", "type": "Wavy" },
             "domain": "ow.ly",
             "ip": "97.11.116.84",
             "address": {
                 "address": "81 Seaton Place Northwest",
                 "city": "Washington",
-                "coordinates": {
-                    "lat": 38.9149499,
-                    "lng": -77.01170259999999
-                },
+                "coordinates": { "lat": 38.9149499, "lng": -77.01170259999999 },
                 "postalCode": "20001",
                 "state": "DC"
             },
@@ -1959,10 +1713,7 @@
                 "address": {
                     "address": "816 West 19th Avenue",
                     "city": "Anchorage",
-                    "coordinates": {
-                        "lat": 61.203221,
-                        "lng": -149.898655
-                    },
+                    "coordinates": { "lat": 61.203221, "lng": -149.898655 },
                     "postalCode": "99503",
                     "state": "AK"
                 },

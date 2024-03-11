@@ -1,6 +1,6 @@
-import data from "../data/users.json";  
-  
-  export interface User {
+import data from "../data/users.json";
+
+export interface User {
     id: number
     firstName: string
     lastName: string
@@ -13,7 +13,7 @@ import data from "../data/users.json";
     image: string
     address: Address
   }
-  
+ 
   export interface Address {
     address: string
     city: string
@@ -24,7 +24,7 @@ import data from "../data/users.json";
     postalCode: string
     state: string
   }
-
-  export function getUsers(): User[] {
-    return data.items;
-  }
+  
+    export function getUsers(): User[] {
+        return data.items;
+    }
