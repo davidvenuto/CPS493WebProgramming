@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { ref, computed } from 'vue'
-    import { type Product, getProduct } from "@/model/products";
+    import { type Product, getProducts } from "@/model/products";
     import ProductCard from '@/components/ProductCard.vue';
     import FlyOut from '@/components/FlyOut.vue';
     import { addToCart, isOpen } from '@/viewModel/cart';
@@ -9,7 +9,7 @@
 
     const products = ref([] as Product[])
     
-    products.value = getProduct()
+    products.value = getProducts()
 
 
 </script>
