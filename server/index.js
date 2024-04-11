@@ -1,6 +1,13 @@
 const express = require('express');
 const users = require('./controllers/users');
 /* B"H
+
+Four types of Asynchronous code:
+    1. Node Style Callbacks
+    2. Pipelining
+    3. Promises
+    4. Async/Await
+
 */
 
 const app = express();

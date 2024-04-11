@@ -1,5 +1,3 @@
-/* B"H
-*/
 const users = require('../models/users')
 const express = require('express');
 const app = express.Router();
@@ -12,39 +10,84 @@ const app = express.Router();
     4. Headers
 */
 
+/** 
+ * @typedef {import('../../client/src/model/users').User} User 
+ * @typedef {import('../../client/src/model/transportTypes').DataEnvelope<User> } UserDataEnvelope
+ * @typedef {import('../../client/src/model/transportTypes').DataListEnvelope<User> } UserDataListEnvelope
+ * */
+
 app
-    .get('/', (req, res) => {
+    .get('/', (req, res, next) => {
         const all = users.getAll();
-        res.send(all);
+        /** @type { UserDataListEnvelope } */
+        const response = {
+            data: all,
+            totalCount: all.length,
+            isSuccess: true,
+        }
+        res.send(response);
         
     })
-    .get('/search', (req, res) => {
+    .get('/search', (req, res, next) => {
 
         const search = req.query.q;
+        if(typeof search !== 'string' ) throw new Error('search is required');
         const result = users.search(search);
-        res.send(result);
+        /** @type { UserDataListEnvelope } */
+        const response = {
+            data: result,
+            totalCount: result.length,
+            isSuccess: true,
+        }
+        res.send(response);
 
     })
-    .get('/:id', (req, res) => {
+    .get('/:id', (req, res, next) => {
         const id = req.params.id;
-        const user = users.get(id);
-        res.send(user);
+        /** @type { UserDataEnvelope } */
+        const response = {
+            data: users.get(+id),
+            isSuccess: true,
+        }
+        res.send(response);
     })
-    .post('/', (req, res) => {
+    .post('/', (req, res, next) => {
         const user = req.body;
         const result = users.add(user);
-        res.send(result);
+
+        /** @type { UserDataEnvelope } */
+        const response = {
+            data: result,
+            isSuccess: true,
+        }
+        
+        res.send(response);
     })
-    .patch('/:id', (req, res) => {
+    .patch('/:id', (req, res, next) => {
         const user = req.body;
         user.id = req.params.id;
         const result = users.update(user);
-        res.send(result);
+
+        /** @type { UserDataEnvelope } */
+        const response = {
+            data: result,
+            isSuccess: true,
+        }
+        
+        res.send(response);
     })
-    .delete('/:id', (req, res) => {
+    .delete('/:id', (req, res, next) => {
         const id = req.params.id;
-        const result = users.remove(id);
-        res.send(result);
+        const result = users.remove(+id);
+
+        
+        /** @type { UserDataEnvelope } */
+        const response = {
+            data: result,
+            isSuccess: true,
+        }
+        
+        res.send(response);
     })
 
 

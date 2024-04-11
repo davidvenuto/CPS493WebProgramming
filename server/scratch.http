@@ -2,10 +2,10 @@
 GET http://localhost:3000/api/v1/users
 
 ###
-GET http://localhost:3000/api/v1/users/31
+GET http://localhost:3000/api/v1/users/3
 
 ###
-GET http://localhost:3000/api/v1/users/search?q=edu
+GET http://localhost:3000/api/v1/users/search?q=plot
 
 ###
 DELETE http://localhost:3000/api/v1/users/1
