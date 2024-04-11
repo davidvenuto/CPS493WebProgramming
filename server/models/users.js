@@ -1,59 +1,22 @@
 /* B"H
 */
-const fs = require('fs');
+const fs = require('fs/promises');
 
 const fileName = __dirname + '/../data/users.json';
 
 /** @type { { items: User[] } } */
 let data //= require('../data/users.json');
 
-function isFileAccessible(fileName) {
-    return new Promise((resolve, reject) => {
-        fs.access(fileName, fs.constants.F_OK, (err) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve();
-        });
-    });
-}
-
-function readFile(fileName) {
-    return new Promise((resolve, reject) => {
-        fs.readFile(fileName, 'utf8', (err, content) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve(content);
-        });
-    });
-}
-
-function writeFile(fileName, content) {
-    return new Promise((resolve, reject) => {
-        fs.writeFile(fileName, content, (err) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve();
-        });
-    });
-}
-
-isFileAccessible(fileName)
-    .then(() => readFile(fileName))
+fs
+    .access(fileName, fs.constants.F_OK)
+    .then(() => fs.readFile(fileName, 'utf8'))
     .then(content => {
         data = JSON.parse(content);
-    })
-    .catch(err => {
-        console.error(err);
-    });
+    }).catch(err => {console.error(err); })
+
 
 function save() {
-    return writeFile(fileName, JSON.stringify( data , null, 2) );
+    return fs.writeFile(fileName, JSON.stringify(data, null, 2))
 }
 
 /**
@@ -95,7 +58,11 @@ function search(q) {
 function add(user) {
     user.id = data.items.length + 1;
     data.items.push(user);
-    save().catch(console.error);
+    console.log("2: About to save")
+    save()
+        .then(() => console.log("3: Saved"))
+        .catch(console.error);
+    console.log("4: About to return user")
     return user;
 }
 
