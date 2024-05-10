@@ -27,3 +27,40 @@ Content-Type: application/json
 {
     "firstName": "Prof. Moshe"
 }
+
+// ############################################################################################
+// Products
+
+###
+GET http://localhost:3000/api/v1/products
+
+###
+GET http://localhost:3000/api/v1/products/6633dce4c9fab919c18d87f0
+
+###
+GET http://localhost:3000/api/v1/products/search?q=5g 
+
+###
+DELETE http://localhost:3000/api/v1/products/1
+
+###
+POST http://localhost:3000/api/v1/products
+Content-Type: application/json
+
+{
+    "title": "Pixel 4",
+    "description": "Google's Pixel 4",
+    "price": 799.99,
+    "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-max-silver-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+    "category": "Electronics",
+    "stock": 100
+
+}
+
+###
+PATCH http://localhost:3000/api/v1/products/31
+Content-Type: application/json
+
+{
+    "description": "Google's Pixel 4 with 5G support is the latest flagship phone from Google"
+}

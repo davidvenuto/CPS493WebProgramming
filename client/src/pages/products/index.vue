@@ -9,7 +9,12 @@
 
     const products = ref([] as Product[])
     
-    products.value = getProducts()
+    getProducts()
+    .then((data) => {
+        if(data){
+            products.value = data.data
+        }
+    })
 
 
 </script>

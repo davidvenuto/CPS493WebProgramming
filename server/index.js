@@ -1,31 +1,45 @@
+require('dotenv').config();
+const path = require('path');
 const express = require('express');
 const users = require('./controllers/users');
-/* B"H
-
-Four types of Asynchronous code:
-    1. Node Style Callbacks
-    2. Pipelining
-    3. Promises
-    4. Async/Await
-
-*/
-
+const products = require('./controllers/products');
 /**  
  * @typedef {import('../client/src/model/transportTypes').DataEnvelope<null> } ErrorDataEnvelope
  * */
 
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ?? 3000;
+
+console.log('The best class at New Paltz is:', process.env.BEST_CLASS);
 
 app
+// Static files
+  .use(express.static('client/dist'))
+
+// Middleware
   .use(express.json())
+  .use((req, res, next) => {
+    
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+
+    next();
+  })
+
 
 app
   .get('/', (req, res) => {
     res.send('Hello New Paltz!')
   })
   .use('/api/v1/users', users)
+  .use('/api/v1/products', products)
+
+// 404
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname,  '../client/dist/index.html'));
+})
 
 // Error handling
 app.use((err, req, res, next) => {

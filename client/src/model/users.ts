@@ -1,4 +1,7 @@
-import data from "../data/users.json";
+/* B"H
+*/
+
+import { api } from "../viewModel/session"
 
 export interface User {
     id: number
@@ -25,6 +28,7 @@ export interface User {
     state: string
   }
   
-    export function getUsers(): User[] {
-        return data.items;
+    export async function getUsers() {
+        const data = await api<User[]>("users");
+        return data ? data.data : [];
     }

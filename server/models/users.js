@@ -1,5 +1,3 @@
-/* B"H
-*/
 const fs = require('fs/promises');
 
 const fileName = __dirname + '/../data/users.json';
@@ -100,6 +98,20 @@ async function remove(id) {
     return null;
 }
 
+/**
+ * @param {string} email
+ * @param {string} password
+ * @returns {Promise<User>}
+ * */
+async function login(email, password) {
+    const data = await dataP;
+    const user = data.items.find(item => item.email === email);
+    if(!user) throw new Error("Invalid email");
+    //if(user.password !== password) throw new Error("Invalid password");
+
+    return user
+}
+
 module.exports = {
-    getAll, get, search, add, update, remove
+    getAll, get, search, add, update, remove, login
 }

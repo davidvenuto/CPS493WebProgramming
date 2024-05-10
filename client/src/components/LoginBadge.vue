@@ -1,12 +1,17 @@
 <script setup lang="ts">
 import { getUsers, type User } from '@/model/users';
 import { refSession, useLogin } from '@/viewModel/session';
+import { ref } from 'vue';
 
     const session = refSession();
 
-    const users = getUsers().slice(0, 5);
+    const users = ref([] as User[])
+    getUsers()
+        .then((data) => users.value = data.slice(0, 5))
+        .catch((error) => console.error(error));
+    ;
 
-    const { login, logout } = useLogin();
+    const { login, googleLogin, logout } = useLogin();
 
     function doLogin(user: User) {
         login(user);
@@ -46,7 +51,14 @@ import { refSession, useLogin } from '@/viewModel/session';
           <a v-for="user in users" class="navbar-item" @click="doLogin(user)">
             {{ user.firstName }} {{ user.lastName }}
           </a>
+          <hr class="navbar-divider" />
+            <a class="navbar-item" @click="googleLogin">
+                Login with Google
+            </a>
+
         </div>
+        
+
       </div>
 
     </div>

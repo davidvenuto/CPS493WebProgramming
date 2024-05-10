@@ -1,4 +1,4 @@
-import products from '@/data/products.json';
+import { api } from "@/viewModel/session"
 
 export interface Product {
     id: number;
@@ -14,6 +14,6 @@ export interface Product {
     images: string[];
 }
 
-export function getProducts(): Product[] {
-    return products.items;
+export function getProducts() {
+    return api<Product[]>("products");
 }
